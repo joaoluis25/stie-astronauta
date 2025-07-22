@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*box-sizing a 2 valores mais usadas com essa propriedade= Content-box (valor padrão)
+O tamanho do elemento não inclui padding nem border, o width e height se aplicam apenas ao conteúdo. Border box (valor mais usado) O tamanho inclui o padding e a border, o width e height se aplicam ao elemento inteiro. */
+}
+body{
+    height: 100vh;
+    background: url("espaco.jpg") no-repeat center center fixed; /*insere a imagem de fundo, centraliza e mantém fixa na tela*/
+    background-size: cover;/*faz o fundo ocupar toda a área da tela*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*display: flex; justify-content: center; align-items: center; centraliza o conteúdo (astronauta) no meio da tela*/
+}
+
+.astronauta{
+    width: 300px;
+}
